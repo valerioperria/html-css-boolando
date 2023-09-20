@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
 /* MAIN */
 
 .wrapper{
@@ -26,6 +30,7 @@
     position: relative;
 }
 
+/* IMAGES */
 .img{
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,25 +40,48 @@
     background-image: url(/img/1.webp);
 }
 
+.img-1:hover{
+    background-image: url(/img/1b.webp);
+}
+
 .img-2{
     background-image: url(/img/2.webp);
+}
+
+.img-2:hover{
+    background-image: url(/img/2b.webp);
 }
 
 .img-3{
     background-image: url(/img/3.webp);
 }
 
+.img-3:hover{
+    background-image: url(/img/3b.webp);
+}
+
 .img-4{
     background-image: url(/img/4.webp);
 }
 
+.img-4:hover{
+    background-image: url(/img/4b.webp);
+}
 
 .img-5{
     background-image: url(/img/5.webp);
 }
 
+.img-5:hover{
+    background-image: url(/img/5b.webp);
+}
+
 .img-6{
     background-image: url(/img/6.webp);
+}
+
+.img-6:hover{
+    background-image: url(/img/6b.webp);
 }
 
 .card{
@@ -77,6 +105,10 @@
     font-size: 2rem;
 }
 
+.square-heart:hover{
+    color: red;
+}
+
 .square-red{
     position: absolute;
     background-color: red;
@@ -91,7 +123,7 @@
     background-color: green;
     color: white;
     padding: 0.3rem;
-    left: 3rem;
+    left: 3.5rem;
     bottom: 3rem;
 }
 
