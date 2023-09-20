@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem 20%;
+}
+
+.section{
+    width: calc((100% / 3) - (2rem / 3));
+    height: 509px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1px;
+    background-color: white;
+    
+}
+
+.img-1{
+    background-image: url(/img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* SQUARES */
+.square-heart{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    right: 0;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.square-red{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    left: 0;
+    bottom: 6rem;
+}
+
+.square-green{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    left: 3.5rem;
+    bottom: 6rem;
+}
