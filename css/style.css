@@ -10,35 +10,58 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem 1rem;
     margin: 3rem 20%;
 }
 
 .section{
     width: calc((100% / 3) - (2rem / 3));
-    height: 509px;
-    position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.card{
-    height: 56px;
-    width: 100%;
+    height: 596px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-left: 1px;
-    background-color: white;
-    
 }
 
-.img-1{
-    background-image: url(/img/1.webp);
+.square{
+    height: 100%;
+    position: relative;
+}
+
+.img{
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.img-1{
+    background-image: url(/img/1.webp);
+}
+
+.img-2{
+    background-image: url(/img/2.webp);
+}
+
+.img-3{
+    background-image: url(/img/3.webp);
+}
+
+.img-4{
+    background-image: url(/img/4.webp);
+}
+
+
+.img-5{
+    background-image: url(/img/5.webp);
+}
+
+.img-6{
+    background-image: url(/img/6.webp);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1px;
+}
 
 /* SQUARES */
 .square-heart{
@@ -58,16 +81,25 @@
     position: absolute;
     background-color: red;
     color: white;
-    padding: 0.5rem;
+    padding: 0.3rem;
     left: 0;
-    bottom: 6rem;
+    bottom: 3rem;
 }
 
 .square-green{
     position: absolute;
     background-color: green;
     color: white;
-    padding: 0.5rem;
-    left: 3.5rem;
-    bottom: 6rem;
+    padding: 0.3rem;
+    left: 3rem;
+    bottom: 3rem;
+}
+
+.square-green-6{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 0.3rem;
+    left: 0;
+    bottom: 3rem;
 }
